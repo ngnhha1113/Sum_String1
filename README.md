@@ -21,21 +21,14 @@ STRING SUM
 
 The core addition logic is in the `StringSum` method, which is used by the `Add` method within the `MyBigNumber` class. The program loop allows users to input numbers repeatedly.
 
-UNITTEST
+The provided code is a unit test using Microsoft's Visual Studio testing framework. It includes two test cases for the `String_Sum` method:
 
-The provided code is a unit test using Microsoft's Visual Studio testing framework. It includes two test cases for the String_Sum method:
+1. **Test Case 1:**
+   - Adds "9482394" and "4782394".
+   - Expects the result "14264788".
 
-Test Case 1:
+2. **Test Case 2:**
+   - Adds "9482394" and "0".
+   - Expects the result "9482394".
 
-Adds "9482394" and "4782394".
-
-Expects the result "14264788".
-
-Test Case 2:
-
-
-Adds "9482394" and "0".
-
-Expects the result "9482394".
-
-The Assert.AreEqual method is used to verify that the actual result matches the expected result for each test case. Running this unit test ensures the correct behavior of the String_Sum method.
+The `Assert.AreEqual` method is used to verify that the actual result matches the expected result for each test case. Running this unit test ensures the correct behavior of the `String_Sum` method.
