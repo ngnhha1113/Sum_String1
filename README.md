@@ -32,5 +32,11 @@ The provided code is a unit test using Microsoft's Visual Studio testing framewo
 2. **Test Case 2:**
    - Adds "9482394" and "0".
    - Expects the result "9482394".
+   - 
+3. **Test Case 3:**
+   - Adds "124" and "".
+   - Expects the result "0".
+  
+
 
 The `Assert.AreEqual` method is used to verify that the actual result matches the expected result for each test case. Running this unit test ensures the correct behavior of the `String_Sum` method.
